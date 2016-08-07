@@ -5,7 +5,7 @@
 
 	<div class="brand">
 		<a href="/">
-			<img src="/assets/img/laravel-logo-white.png" height="50">
+			<img src="/assets/img/laravel-logo-white.png" height="50" alt="Laravel white logo">
 		</a>
 	</div>
 
@@ -29,6 +29,7 @@
 
 	<div id="search">
 		<div id="search-wrapper">
+			<label for="search-input" class="show-for-sr">Search</label>
 			<input placeholder="" type="text" id="search-input" />
 			<i id="cross" class="icon"></i>
 		</div>

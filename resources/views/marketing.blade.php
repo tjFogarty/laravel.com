@@ -37,7 +37,7 @@ home
 &lt;?php
 
 
-class Idea extends Eloquent 
+class Idea extends Eloquent
 {
 
 	/**
@@ -60,7 +60,7 @@ class Idea extends Eloquent
 	</div>
 	<a href="#features" class="next-up">
 		Powerful, Modern Features
-		<img src="/assets/img/down-arrow.png">
+		<img src="/assets/img/down-arrow.png" role="presentation">
 	</a>
 </section>
 
@@ -92,7 +92,7 @@ class Idea extends Eloquent
 						</div>
 						<div class='window-content'>
 							<pre class="line-numbers"><code class="language-php">
-class Purchase implements ShouldQueue 
+class Purchase implements ShouldQueue
 {
 
 	/**
@@ -168,7 +168,7 @@ Route::get('/user/{user}', function(App\User $user)
 		</div>
 		<a href="#ecosystem" class="next-up">
 			The Laravel Ecosystem
-			<img src="/assets/img/down-arrow.png">
+			<img src="/assets/img/down-arrow.png" role="presentation">
 		</a>
 	</section>
 
