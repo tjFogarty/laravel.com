@@ -29,7 +29,7 @@
 
 	<div id="search">
 		<div id="search-wrapper">
-			<label for="search-input" class="show-for-sr">Search</label>
+			<label for="search-input" class="sr-only">Search</label>
 			<input placeholder="" type="text" id="search-input" />
 			<i id="cross" class="icon"></i>
 		</div>

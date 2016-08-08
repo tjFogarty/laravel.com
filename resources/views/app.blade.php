@@ -32,7 +32,7 @@
 
 			<div class="responsive-sidebar-nav">
 				<a href="#" class="toggle-slide menu-link btn">
-					<span class="show-for-sr">Toggle menu</span>
+					<span class="sr-only">Toggle menu</span>
 					&#9776;
 				</a>
 			</div>

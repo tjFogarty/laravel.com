@@ -371,13 +371,6 @@ h1, h2, h3, h4 {
   max-width: 1080px;
   margin: 0 auto; }
 
-.show-for-sr {
-  position: absolute !important;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0); }
-
 a {
   color: #f4645f;
   text-decoration: none; }
@@ -1007,6 +1000,16 @@ tbody.collapse.in {
 
 .affix {
   position: fixed; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
 
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+php+php-extras+bash+sql+http */
 /**
